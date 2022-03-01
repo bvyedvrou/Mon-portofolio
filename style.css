@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -60,7 +60,7 @@ nav ul li a:hover:after{
     background-size: 152% 100%;
     background: #4351A3;
     border: 2px solid #4351A3;
-}
+     }
 .btn:hover{
     background: transparent;
     border-color: #4351A3;
@@ -68,7 +68,7 @@ nav ul li a:hover:after{
 }
 .content{
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 8%;
 }
 .content .title{
@@ -99,9 +99,58 @@ nav ul li a:hover:after{
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
+body {
+background-color: #e7e7e9;
+}
+label{
+font-weight: bold;
+font-size: 20px;
+margin-right: 10px;
+color: #777;
+
+}
+.text-center{
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #e7e7e9;
+}
+.btn1{
+    color: #4351A3;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fff;
+    border: 2px solid #e7e7e9;
+    margin: 0 0 100px 30px;
+}
+.btn1:hover{
+    background: transparent;
+    border-color: #4351A3;
+    color: #4351A3;
+}
+#contact{
+    background-color: #4351A3;
+}
+input{
+    margin: 0 10px;
+    width: 350PX;
+    height: 30px;
+}
+.message{
+    margin: 0 10px 20px;
+    
+}
 footer {
     height: 100px;
-    background-color: #4351A3;
+    background-color: #e7e7e9;
     font-family: 'ubuntu', sans-serif;
     margin-top: 50px;
 
@@ -109,24 +158,9 @@ footer {
   .copyright  {
     text-align: center;
     font-weight: initial;
-    color: #fff;
+    color: rgb(14, 13, 13);
   }
   .name{
       text-align: center;
-      color: white;
+      color: rgb(20, 20, 20);
   }
-body {
-background-color: #e7e7e9;
-margin: auto;
-
-}
-label{
-font-weight: bold;
-font-size: 20px;
-margin-right: 10px;
-color: #777;
-}
-.text-center{
-    text-align: center;
-    margin-top: 50px;
-}
